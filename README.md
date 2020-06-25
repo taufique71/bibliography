@@ -1,1 +1,3 @@
 # bibliography
+
+Personal bibliographic database
