@@ -2,17 +2,18 @@
 
 Personal bibliographic database in Bibtex format.
 
-## How to use in LaTeX documents?
+## How to use in LaTeX documents?[Basic usage](http://www.bibtex.org/Using/)
 The bibliography style is set with `\bibliographystyle{stylename}` and the bibliography file is imported with `\bibliography{bibfile}`.
 Here `bibfile` is the name of the bibliography `.bib` file, without the extension and `stylename` is one of the following:
-- abbrv
-- acm
-- alpha
-- apalike
-- ieeetr
-- plain
-- siam
-- unsrt
+- `abbrv`
+- `acm`
+- `alpha`
+- `apalike`
+- `ieeetr`
+- `plain`
+- `siam`
+- `unsrt`
+[Source](https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles)
 
 ```tex
 \documentclass[12pt]{article}
