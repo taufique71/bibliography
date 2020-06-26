@@ -2,7 +2,7 @@
 
 Personal bibliographic database in Bibtex format.
 
-## How to use in LaTeX documents?[Basic usage](http://www.bibtex.org/Using/)
+### How to use in LaTeX documents?
 The bibliography style is set with `\bibliographystyle{stylename}` and the bibliography file is imported with `\bibliography{bibfile}`.
 Here `bibfile` is the name of the bibliography `.bib` file, without the extension and `stylename` is one of the following:
 - `abbrv`
@@ -13,7 +13,6 @@ Here `bibfile` is the name of the bibliography `.bib` file, without the extensio
 - `plain`
 - `siam`
 - `unsrt`
-[Source](https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles)
 
 ```tex
 \documentclass[12pt]{article}
@@ -39,3 +38,7 @@ After that compiling is done with following four steps -
 2. `bibtex document.aux`
 3. `pdflatex document.tex`
 4. `pdflatex document.tex`
+
+### More Information
+- [http://www.bibtex.org/Using/](http://www.bibtex.org/Using/)
+- [https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles](https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles)
