@@ -1,6 +1,9 @@
 # bibliography
 
 Personal bibliographic database in Bibtex format.
+Managed with [bibtool](http://gerd-neugebauer.de/software/TeX/BibTool/en/).
+
+- To sort run `make sort`
 
 ### How to use in LaTeX documents?
 The bibliography style is set with `\bibliographystyle{stylename}` and the bibliography file is imported with `\bibliography{bibfile}`.
